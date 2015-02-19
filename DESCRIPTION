@@ -1,0 +1,17 @@
+Package: metrometrics
+Type: Package
+Title: Escalator, Evelator, and HotCars data for the Washington Metropolitan 
+  Area Transit Authority
+Version: 0.1
+Date: 2015-02-19
+Authors@R: 'Sean Kross <smk240@gmail.com> [aut,cre]'
+Description: Escalator and Elevator data from the WMATA API, compiled by
+  dcmetrometrics.com. HotCars data from Twitter, compiled by the same source.
+Depends:
+    R (>= 3.1.0)
+LazyData: true
+Suggests:
+    dplyr,
+    devtools
+License: CC0
+URL: http://github.com/seankross/metrometrics
